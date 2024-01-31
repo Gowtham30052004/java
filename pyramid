@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Main
+
+{
+	public static void main(String[] args) {
+	 Scanner input= new Scanner(System.in);
+	 int no=input.nextInt();
+	 int h=no;
+	 no=no/2;
+	 System.out.println(no);
+	 int j=1;
+	 for(int i=no+1;i>0;i--)
+	 {
+	     for(int p=i-1;p>0;p--)
+	     {
+	         System.out.print(" ");
+	     }
+	     
+	     for(int k=1;k<=j;k++)
+	     {
+	         System.out.print(h);
+	         //System.out.print("7hh");
+	         
+	     }
+	     j++;
+	    /* for(int s=no;s>0;s--)
+	     {
+	         System.out.print(" ");
+	     }*/
+	     j++;
+	     System.out.println();
+	    
+	 }
+	 
+	}
+}
