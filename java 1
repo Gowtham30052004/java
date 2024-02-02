@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s=sc.next();
+                int x=sc.nextInt();
+                System.out.print(s);
+               // int m=s.size();
+               for(int j=s.length();j<15;j++)
+               System.out.print(" ");
+                if(100<=x)
+                {
+                    System.out.println(x);
+                }
+                else if(10<=x)
+                {
+                    System.out.print("0");
+                    System.out.println(x);
+                    
+                }
+                else 
+                {System.out.print("0");
+                    System.out.print("0");
+                    System.out.println(x);
+                   // System.out.print("0");
+                    
+                }
+                
+                }
+            
+            System.out.println("================================");
+
+    }}
+
