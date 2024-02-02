@@ -1,0 +1,30 @@
+//create the following series:s^0,s^1...
+import java.util.*;
+import java.io.*;
+class Solution
+{
+    public static void main(String arg[])
+    {
+        Scanner input=new Scanner(System.in);
+        int n,a,b,q;
+        q=input.nextInt();
+        
+        while(q>0)
+       { 
+       a=input.nextInt();
+        b=input.nextInt();
+        n=input.nextInt();
+        //System.out.print(a);
+        int m=a;
+        for(int i=0;i<n;i++)
+        
+        { 
+             m+=Math.pow(2,i)*b;
+             System.out.print(m+" "); 
+        }
+        System.out.print("\n"); 
+        q--;
+       }
+        
+    }
+}
