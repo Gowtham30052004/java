@@ -1,0 +1,20 @@
+//Scanner.hasNext() method
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int i=0;
+        int n=0;
+        Scanner input=new Scanner(System.in);
+        for(;input.hasNext();n++)
+        {
+            String k=input.nextLine();
+            System.out.println((++i)+" "+k);
+        }
+    }
+}
