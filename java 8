@@ -1,0 +1,26 @@
+//String polindrom
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String arg[])
+    {
+        Scanner input=new Scanner(System.in);
+        String st;
+        //int j=str.length();
+        st=input.nextLine();
+        int j=st.length();
+        String str1="";
+        for(int i=st.length()-1;i>=0;i--)
+        {
+        str1=str1+st.charAt(i);
+    }
+    if(st.equals(str1))
+    {
+        System.out.println("Yes");
+    }
+    else
+    System.out.println("No");
+    }
+}
